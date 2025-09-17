@@ -1,0 +1,26 @@
+ul {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(204, 26, 103);
+    width: 200px;
+
+}
+
+li{
+    float: none;
+    border-bottom: 1px solid palevioletred;
+}
+a{
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: pink;
+}
+li a:active{
+    background-color: pink;
+}

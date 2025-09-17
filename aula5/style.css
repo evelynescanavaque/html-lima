@@ -1,0 +1,45 @@
+/*= aplica a todos os elementos */
+.destaque {
+     
+    color: rgb(235, 15, 206);
+    font-weight: bold;
+   
+   
+  
+}
+/*= reutilizavél para varios elementos */
+#titulo-principal{
+    text-align: center;
+    color: rgb(246, 37, 158);
+}
+/*= uníco para o elemento */
+p{
+    font-size: 19px;
+    line-height: 1.5;
+}
+/*= altera todos os elementos do tipo*/
+* {
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/*= agrupamento de elementos */
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: plum;
+    word-spacing: 5px;
+}
+
+p{
+    color: rgb(97, 6, 77);
+
+}
+
+img{
+    width: 500;
+    height: auto;
+    border: 2px solid pink;
+    display: block;
+    margin: 0 auto;
+}
+
