@@ -1,0 +1,68 @@
+button:hover {
+    background-color: rgb(203, 3, 123);
+    color: rgb(243, 141, 221);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+     
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    background-color: rgb(255, 101, 183);
+    color: white;
+    transform: scale(0.9);
+
+}
+input{
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid rgb(255, 101, 183);
+    border-radius: 30px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+    background-color: white;
+}
+input:focus {
+    border: 2px solid rgb(232, 85, 207);
+    outline: none;
+    box-shadow: 0 0 5px #de0881;
+
+    background-color: #ffddfb;
+    transition: background-color 0.3s ease;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+p:first-child {
+    font-weight: bold;
+}
+li:last-child {
+    color: #de0881;
+
+}
+
+tr:nth-child(even) {
+    background-color: #de0881;
+    color: white;
+    
+}
+
+tr:nth-child(odd) {
+    background-color: #d81a86;
+    color: white;
+    
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    border-radius: 1000px;
+    margin-top: 20px;
+}
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    border-radius: 3px;
+}
+
